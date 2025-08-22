@@ -1,3 +1,9 @@
+
+/* 解决界面一直报错*/
+[id^="setting_"] > div[style*="position: absolute"] {
+	display: none !important;
+}
+
 /* temporary fix to load default gradio font in frontend instead of backend */
 
 @import url('webui-assets/css/sourcesanspro.css');
@@ -1665,3 +1671,4 @@ body.resizing .resize-handle {
     visibility: visible;
     width: auto;
 }
+

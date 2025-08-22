@@ -36,7 +36,7 @@ jobs:
         env:
           PIP_DISABLE_PIP_VERSION_CHECK: "1"
           PIP_PROGRESS_BAR: "off"
-          TORCH_INDEX_URL: https://download.pytorch.org/whl/cpu
+          TORCH_INDEX_URL: https://download.pytorch.org/whl
           WEBUI_LAUNCH_LIVE_OUTPUT: "1"
           PYTHONUNBUFFERED: "1"
       - name: Print installed packages
